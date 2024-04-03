@@ -1,0 +1,152 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+header{
+    padding-top: 10px;
+}
+
+section{
+    width: 100vw;
+}
+
+#primeiro{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+#barraConfig{
+    font-size: 1.8em;
+}
+
+.topicos{
+    width: 70px;
+    padding: 5px;
+    text-decoration: none; 
+    color: black;
+}
+
+#especial{
+    -webkit-box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#tabs{
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blocos{
+    width: 90%;
+    max-width: 352px;
+    margin: 0 auto;
+}
+
+#bloco1{
+    border-bottom: solid 1px;
+}
+
+img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.Postagem{
+    width: 320px;
+    height: 164px;
+    margin-top: 10px;
+}
+
+.reaction{
+    padding-top: 8px;
+    margin-bottom: 4px;
+}
+
+.fa-heart::before{
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+.fa-telegram::before{
+    font-size: 1.5em;
+}
+
+#fotos{
+    justify-content: center;
+    display: flex;
+}
+
+.fotoPerfil{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+h3{
+    width: auto;
+}
+
+span{
+    font-size: 12px;
+}
+
+#mulherN1{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.perfil{
+    display: flex;
+    margin-top: 16px;
+}
+
+.desc{
+    margin-left: 12px;
+}
+
+footer{
+    margin: 0 auto;
+    width: 100vw;
+    padding-left: 8px;
+    border-top: 1px solid;
+    margin-bottom: 8px;
+}
+
+.fa-house::before{
+    font-size: 1.5em;
+    margin-right: 44px;
+}
+
+.fa-magnifying-glass{
+    font-size: 1.5em;
+}
+
+.fa-circle-plus{
+    font-size: 3rem;
+    margin-right: 44px;
+    margin-left: 44px;
+    position: relative;
+}
+
+.fa-user{
+    font-size: 1.5em;
+    margin-left: 40px;
+    margin-right: 0;
+}
